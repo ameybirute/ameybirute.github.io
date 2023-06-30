@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(38, 38, 38);
+}
+
+.container{
+    background-color: rgb(31, 167, 128);
+    width:30vw;
+    margin:150px auto;
+    height:40vh;
+    border-radius:5px;
+}
+
+.clockholder{
+    height:100px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.alltimeholder{
+    display:inline-block;
+    box-sizing: border-box;
+    height:40px;
+    margin:30px calc((30vw - 120px)/2);
+}
+.alltimesetholder{
+    display:inline-block;
+    box-sizing: border-box;
+    height:30px;
+    margin:4.5px calc((30vw - 128px)/2);
+}
+
+p{
+    width:120px;
+    height:40px;
+    background-color: rgb(121, 238, 213);
+    margin:0;
+    font-size:24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:5px 25px;
+    box-sizing: border-box;
+    border-radius:5px;
+}
+
+.timesetter{
+    height:30px;
+    box-sizing: border-box;
+    margin:30px auto 0;
+}
+
+.buttondiv{
+    box-sizing: border-box;
+    margin:10px 0;
+    height:60px;
+
+}
+
+#mybtn, #mybtn2{ 
+    background-color: rgb(22, 79, 223);
+    width:80px;
+    height:30px;
+    border-radius: 15px;
+    border:none;
+    margin:0 auto 1px;
+    display: block;
+    cursor:pointer;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+    opacity:0.8;
+}
+
+#mybtn2{
+    background-color: rgb(215, 54, 54);
+}
+
+
+
+input{
+    width:35px;
+    border:none;
+    border-radius:3px;
+}
+
+select{
+border:none;
+border-radius:3px;
+}
+
+@media only screen and (max-width: 600px) {
+.container{
+    width:70vw;
+    border-radius: 10px;
+}
+
+.alltimeholder{
+    margin:30px calc((70vw - 120px)/2);
+}
+.alltimesetholder{
+    margin:4.5px calc((70vw - 148px)/2);
+}
+
+.buttondiv{
+    margin:80px 0;
+}
+
+input{
+    width:40px;
+    height:30px;
+    font-size: 20px;
+}
+
+select{
+    height:30px;
+    font-size: 20px;
+}
+
+#mybtn, #mybtn2{
+    width:150px;
+    height:40px;
+    border-radius:20px;
+}
+  }
+

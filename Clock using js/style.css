@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(50, 50, 104);
+}
+
+.container{
+    width:400px;
+    height:200px;
+    background-color: darkcyan;
+    margin:200px auto 0;
+    border-radius: 8px;
+    box-shadow:2px 2px 10px  black,-2px -2px 10px  black;
+    display: flex;
+    align-items: center;
+}
+
+.subcontainer{
+    margin:auto;
+    display: flex;
+    width:250px;
+    height:60px;
+    background-color: darkcyan;
+}
+
+ div{
+    border-radius: 5px;
+    width:60px;
+    height:60px;
+    background-color: rgb(50, 50, 104);
+    margin:auto;
+    text-align: center;
+}
+
+
+.c .time{
+    margin:10px 0 20px;
+    font-size: 30px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.c .caption{
+    color:rgb(240, 240, 240);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 10px;
+}

@@ -1,0 +1,35 @@
+.mycontainer .container-fluid{
+    width:80vw;
+    margin-top:150px;
+    height:338px;
+}
+
+.mycontainer .container-fluid .p1{
+font-size:16px;
+clear:both;
+margin-bottom:3px;
+
+}
+
+.mycontainer .container-fluid .button1{
+    margin:auto;
+    background-color: green;
+}
+
+.mycontainer{
+    height: calc(100vh - 120.8px);
+    display: flex;  
+}
+
+button{
+    height:30px;
+    width:90px;
+}
+
+.mycontainer .container-fluid .p2{
+    margin-top:40px;
+}
+
+.mycontainer .container-fluid input{
+    background-color: rgb(61, 61, 61);
+}

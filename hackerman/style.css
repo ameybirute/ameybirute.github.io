@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Sigmar&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #101d23;
+}
+
+pre{
+  color:white;
+  padding-bottom: 50px;
+  height:100px;
+}
+.container{
+  font-weight:bold;
+  background-color:black;
+  margin:80px auto 0;
+  width:50vw;
+  border-top:10px solid white;
+  box-sizing:border-box;
+  padding:3px;
+  height:500px;
+  border-radius:5px;
+  
+  
+}
+
+#text{
+  font-family: 'Inconsolata', monospace;
+  color:green;
+  font-size:15px;
+  line-height: 20px;
+}
+

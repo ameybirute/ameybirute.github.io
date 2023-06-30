@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator for password</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+<p class="title">Password Generator</p>
+<input type="text" name="display" id="display" readonly placeholder="Your generated password">
+<input type="number" min="4" max="12" id="lengthsetter" placeholder="4-12" value="8">
+<div class="subblock">
+<button class="submitbtn" onclick="lg()">Submit</button><button class="copybtn" id="copybtn" onclick="copy()">Copy</button>
+</div>
+
+<div class="conditions">
+<label for="checkbox1">Include numbers:<input type="checkbox" name="checkbox1" id="checkbox1"></label> 
+<label for="checkbox2">Include special characters:<input type="checkbox" name="checkbox2" id="checkbox2"></label> 
+
+</div>
+    </div>
+</body>
+</html>

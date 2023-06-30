@@ -1,0 +1,10 @@
+.container{
+    margin-top:none;
+    width:600px;
+    height:100vh
+}
+
+#text{
+    font-size: 20px;
+    line-height: 30px;
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=DM+Sans&family=Inconsolata:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(9 6 45);
+    height: 70px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+.header img {
+    width: 48px;
+    height: 48px;
+    margin: 11px;
+}
+
+.header ul {
+    display: flex;
+    height: 70px;
+}
+
+.header ul li {
+    text-align: center;
+    list-style: none;
+    width: 70px;
+    padding: 28.5px 30px 0px;
+}
+
+.header ul li a:hover {
+    color: white;
+}
+
+
+
+
+.header ul li:hover{
+    border-bottom: 10px solid rgb(123, 122, 253);
+}
+
+.header ul li a {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #52a780;
+    text-decoration: none;
+}
+
+
+
+.container {
+    min-height: calc(100vh - 170px);
+    background-color: rgb(9 6 45);
+    padding:40px 0px 40px 200px;
+}
+
+.container p.one {
+
+    /* Hi, my name is font */
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #52a780;
+    padding:30px 0px 30px;
+}
+
+.container h1.one {
+    /* Amey Birute font */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(82, 167, 175);
+}
+
+.container h1.two {
+    /* I build things for the web */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(123, 122, 253);
+}
+
+.container p.two {
+/* long paragraph */
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(123, 122, 253);
+    width:350px;
+    margin-top: 50px;
+}
+
+.container ol li{
+    margin:30px 0;
+    color: rgb(123, 122, 253);
+    font-size: 20px;
+}
+
+.container ol li a{
+    color: rgb(123, 122, 253);
+}
+
+
+.container ol li:hover {
+    color:white;
+}
+.container ol li a:hover{
+    color:white;
+}
+
+
+
+
+.container a{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+text-decoration: none;
+color:#52a780;
+margin:40px 20px;
+}
+
+.container a:hover{
+    scale: 105%;
+}
+
+
+.footer {
+    text-align: center;
+    height: 100px;
+    background-color: rgb(9 6 45);
+    border-top: 1px solid white;
+}
+
+.footer img{
+    width:32px;
+}
+
+.socialsites img{
+    margin-top:30px;
+    padding:3px 3px;
+    border-radius: 18px;
+}
+
+.socialsites img:hover{
+scale:115%;
+border-radius: 18px;
+}
+
+@media screen and (min-width: 480px) {
+
+  }

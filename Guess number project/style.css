@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: rgb(15, 44, 82);
+}
+.myheader h1{
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+    color:rgb(111, 155, 250);
+    margin-bottom: 0;
+    padding:20px 0px;
+}
+
+.myheader h1::first-letter{
+    color:white;
+}
+
+.mycontainer{
+    height: calc(100vh - 136.8px);
+    display: flex;  
+}
+
+.mycontainer .container-fluid{
+    justify-content: center;
+    margin:auto;
+    width:30vw;
+    background-color: white;
+    border-radius:8px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:50px 15px 0px 15px;
+    box-shadow:5px 5px 30px 5px rgb(43, 42, 42);
+height:268px;
+}
+
+p{
+    margin-bottom:none;
+}
+
+.mycontainer .container-fluid .p1{   
+    margin-bottom:0;
+    float:left;
+}
+
+
+.mycontainer .container-fluid .button1{
+    background-color: rgb(0, 177, 0);
+    border-radius:5px;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding:0 3px;
+    margin-left:20px;
+    width:100px;
+    height:30px;
+
+}
+
+.mycontainer .container-fluid input{
+    border-radius:5px;
+    display: block;
+    margin:auto; 
+    padding-left: 3px;
+    width:100%;
+    margin:20px auto 30px ;
+    background-color: rgb(92, 92, 92);
+    color:white;
+}
+
+.mycontainer .container-fluid input:focus{
+    border:3px solid rgb(255, 255, 255);
+box-sizing: border-box;
+}
+
+.mycontainer .container-fluid .p2{
+margin:18px auto 0px;
+font-family: 'Courier New', Courier, monospace;
+animation-duration:0.5s;
+animation-iteration-count: 1;
+position: relative;
+}
+
+@keyframes anim{ 
+       
+    0%{left:0px;}
+    20%{left:3px;}
+    40%{left:-3px;}
+    60%{left:3px;}
+    80%{left:-3px;}
+    100%{left:0px;}
+}
+
+
+.mycontainer .container-fluid .button2{
+    background-color: rgb(0, 177, 0);
+    border-radius:5px;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin:auto;   
+    background-color: rgb(9, 9, 82);
+    color:white;
+    padding:0 3px;
+    display:block;
+    width:100px;
+    height:30px;
+}
+
+.mycontainer .container-fluid button:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
+.myfooter h4{
+    font-family: 'Sigmar', cursive; 
+    color:rgb(111, 155, 250); 
+    text-align: center;
+    margin-bottom: 0;
+    padding:10px 0px;
+}   
+
+
+
