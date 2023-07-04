@@ -1,9 +1,8 @@
-const timeloader = () => {
+(timeloader = () => {
     const d = new Date()
     document.getElementById("timedisplay").innerHTML = (d.getHours() > 12 ? (d.getHours() - 12) : d.getHours()) + ":" + d.getMinutes() + ":" + d.getSeconds()
-}
+})()
 
-timeloader()
 setInterval(timeloader, 1000)
 
 let f =new Date()
