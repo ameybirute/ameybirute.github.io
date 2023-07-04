@@ -1,7 +1,7 @@
 let messages=[
-    "Initialing Tool",
+    "Initializing Tool",
     "Waiting for response",
-    "just few seconds more...",
+    "Few seconds more...",
     "Searching for user",
     "User found",
     "Finding vulnerabilities",
