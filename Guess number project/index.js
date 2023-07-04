@@ -50,7 +50,7 @@ const submit = () => {
       document.getElementById("output").style.animationName = "none"
     }, 1000);
   }
-  else {
+  else if(x==n){
     document.getElementById("output").innerHTML = `You found the correct number ${n} and your score is ${score} `
     document.getElementById("output").style.cssText = "color:green;font-weight:600"
     
