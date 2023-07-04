@@ -25,8 +25,10 @@ const showHack = async (message) => {
   text.innerHTML = text.innerHTML + message + "<br>"
 }
 
-(async () => {
+const myfn=async()=>{
+  document.getElementById("container").style.display="block"
+  document.getElementById("buttondiv").style.display="none"
   for (let i = 0; i < messages.length; i++) {
           await showHack(messages[i])
   }
-})()
+}  
