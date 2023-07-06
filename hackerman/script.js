@@ -1,4 +1,4 @@
-let messages=[
+const arr=[
     "Initializing Tool",
     "Waiting for response",
     "Few seconds more...",
@@ -14,21 +14,18 @@ let messages=[
     "ATTEMPT SUCCEED!!!"
 ]
 
-const sleep = async (seconds) => {
-  return new Promise((resolve, reject) => {
-          setTimeout(() => { resolve(true) }, seconds * 1000)
+const sleep=async(n)=>{
+  return new Promise((resolve)=>{
+      setTimeout(function(){
+      resolve()
+  },(n*1000))  
   })
 }
 
-const showHack = async (message) => {
+(async()=>{
+for(let i=0;i<arr.length;i++){
   await sleep(2)
-  text.innerHTML = text.innerHTML + message + "<br>"
+  console.log(arr[i])
 }
+})()
 
-const myfn=async()=>{
-  document.getElementById("container").style.display="block"
-  document.getElementById("buttondiv").style.display="none"
-  for (let i = 0; i < messages.length; i++) {
-          await showHack(messages[i])
-  }
-}  
