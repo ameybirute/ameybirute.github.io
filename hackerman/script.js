@@ -14,21 +14,24 @@ let messages=[
   "ATTEMPT SUCCEED!!!"
 ]
 
-const sleep = async (seconds) => {
-return new Promise((resolve, reject) => {
-        setTimeout(() => { resolve(true) }, seconds * 1000)
-})
+const text = document.getElementById("text");
+
+const sleep =function(seconds)
+{return new Promise(resolve =>{setTimeout(() => {
+  resolve(true);
+    }, seconds * 1000);}
+)}
+
+const showmsg = async function(instOfMsg){
+  await sleep(2);
+  text.innerHTML = text.innerHTML + instOfMsg + "<br>";
 }
 
-const showHack = async (message) => {
-await sleep(2)
-text.innerHTML = text.innerHTML + message + "<br>"
-}
+const msgloader=async function(){
+  document.getElementById("buttondiv").style.display = "none";
+  document.getElementById("container").style.display = "block";
+  for (let i = 0; i < messages.length; i++) {
+     await showmsg(messages[i]);
+  }
 
-const myfn=async()=>{
-document.getElementById("container").style.display="block"
-document.getElementById("buttondiv").style.display="none"
-for (let i = 0; i < messages.length; i++) {
-        await showHack(messages[i])
 }
-}  
